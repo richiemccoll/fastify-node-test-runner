@@ -1,0 +1,25 @@
+{
+  "name": "writing-tests-with-fastify-node-test-runner",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "spec": "node --test --test-reporter=spec tests/",
+    "spec:watch": "node --test --test-reporter=spec --watch tests/",
+    "test": "node --test tests/",
+    "test:watch": "node --test --watch tests/"
+  },
+  "keywords": [
+    "fastify",
+    "api",
+    "tests",
+    "test runner"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.13.0",
+    "pino-pretty": "^9.3.0"
+  }
+}
